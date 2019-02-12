@@ -1,0 +1,8 @@
+# テーマ
+theme : moon
+theme-override : integromat/assets/css/PITCHME.css
+# スライド番号
+slide-number : true
+# コードハイライト
+highlight : monokai
+code-line-numbers : true
