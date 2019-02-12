@@ -2,7 +2,7 @@
 
 ---
 
-### @css[h2](自己紹介)
+## @css[h2](自己紹介)
 - TIS(4年目)
 - Androidアプリ開発
 - モンハンが好き(アイルーかわいい)
@@ -10,10 +10,10 @@
 
 ---
 
-### @css[h2](Integromat)
+## @css[h2](Integromat)
 
 ---
-### @css[h2](Integromatとは？)
+## @css[h2](Integromatとは？)
 
 - 2016年サービスイン
 - 様々なWebサービスの連携機能を提供
@@ -21,13 +21,13 @@
 
 ---
 
-### @css[h2](例えば...)
+## @css[h2](例えば...)
 
 ![what_is_integromat](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/what_is_integromat.png?raw=true)
 
 ---
 
-### @css[h2](利用し始めた背景)
+## @css[h2](利用し始めた背景)
 
 Backlogの通知をSlackに流したいな・・・
 
@@ -41,14 +41,14 @@ Backlogの通知をSlackに流したいな・・・
 
 ---
 
-### @css[h2](似たようなサービス)
+## @css[h2](似たようなサービス)
 
 ![zaiper](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/zaiper.png?raw=true)
 ![ifttt](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/ifttt.png?raw=true)
 
 ---
 
-### @css[h2](何が違うのか？)
+## @css[h2](何が違うのか？)
 
 - 無料枠が大きい(1000回/月)
 - 複数サービスへの同時連携が可能
