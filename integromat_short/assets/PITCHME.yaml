@@ -1,6 +1,6 @@
 # テーマ
 theme : moon
-theme-override : integromat/assets/css/PITCHME.css
+theme-override : integromat_short/assets/css/PITCHME.css
 # スライド番号
 slide-number : true
 # コードハイライト
