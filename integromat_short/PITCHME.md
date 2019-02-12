@@ -56,12 +56,12 @@ Backlogの通知をSlackに流したいな・・・
 
 ---
 
-@css[h2](BacklogはWebhook連携だけ)  
+## @css[h2](BacklogはWebhook連携だけ)  
 (つまらない)
 
 ---
 
-@css[h2](アニメイベント情報を即キャッチする)
+## @css[h2](アニメイベント情報を即キャッチする)
 (重要)
 
 ---
@@ -70,7 +70,7 @@ Backlogの通知をSlackに流したいな・・・
 
 ---
 
-### @css[h2](まずはScenarioの作成)
+## @css[h2](まずはScenarioの作成)
 
 Scenario = 連携の設計図
 
@@ -78,58 +78,58 @@ Scenario = 連携の設計図
 
 ---
 
-### @css[h2](Gmailを受け取って)
+## @css[h2](Gmailを受け取って)
 ![gmail_1](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_1.png?raw=true)
 
 ---
 
-### @css[h2](APIでPOST)
+## @css[h2](APIでPOST)
 
 ![gmail_2](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_2.png?raw=true)
 
 ---
 
-### @css[h2](本文をごにょごにょして)
+## @css[h2](本文をごにょごにょして)
 
 ![gmail_3](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_3.png?raw=true)
 
 ---
 
-### @css[h2](パース)
+## @css[h2](パース)
 
 ![gmail_4](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_4.png?raw=true)
 
 ---
 
-### @css[h2](送信元別にSlackへ通知)
+## @css[h2](送信元別にSlackへ通知)
 
 ![gmail_5](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_5.png?raw=true)
 
 ---
 
-### @css[h2](モジュールの作成)
+## @css[h2](モジュールの作成)
 モジュール = 連携するサービス
 
 ---
 
-### @css[h2](たとえばSlackモジュールの場合)
+## @css[h2](たとえばSlackモジュールの場合)
 
 ---
 
-### @css[h2](メニューから選択)
+## @css[h2](メニューから選択)
 
 ![webhook_2](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/webhook_2.png?raw=true)
 
 ---
 
-### @css[h2](チャンネルとメッセージを設定)
+## @css[h2](チャンネルとメッセージを設定)
 
 <img src="https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/slack_1.png?raw=true" height="300">
 <img src="https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/slack_2.png?raw=true" height="300">
 
 ---
 
-### @css[h2](キモはAPI連携)
+## @css[h2](キモはAPI連携)
 
 1. Gmailの内容をJsonでPOST
 2. エンコード
@@ -139,30 +139,30 @@ Scenario = 連携の設計図
 
 ---
 
-### @css[h2](ここもサーバレスでやりたい)
+## @css[h2](ここもサーバレスでやりたい)
 
 ---
 
-### @css[h2](Azure Functions)
+## @css[h2](Azure Functions)
 - サーバー構築不要
 - 枠内であれば無料で利用可能
 - JS,C#,F#で作成可能
 
 ---
 
-### @css[h2](Azureで関数の作成)
+## @css[h2](Azureで関数の作成)
 
 ![gmail_10](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_10.png?raw=true)
 
 ---
 
-### @css[h2](IntegromatのHTTPモジュールに<br>APIのURLを設定)
+## @css[h2](IntegromatのHTTPモジュールに<br>APIのURLを設定)
 
 <img src="https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_11.png?raw=true" height="300">
 
 ---
 
-### @css[h2](Jsonの作成・パースはIntegromatにお任せ)
+## @css[h2](Jsonの作成・パースはIntegromatにお任せ)
 
 <img src="https://raw.githubusercontent.com/nyanc0/Android/other_knowledge/integromat/images/gmail_8.png" height="300">
 <img src="https://raw.githubusercontent.com/nyanc0/Android/other_knowledge/integromat/images/gmail_9.png" height="300">
@@ -173,12 +173,12 @@ Scenario = 連携の設計図
 
 ---
 
-### @css[h2](もう少し詳しい使い方)
+## @css[h2](もう少し詳しい使い方)
 https://github.com/nyanc0/Android/tree/other_knowledge/integromat
 
 ---
 
-### @css[h2](メリット)
+## @css[h2](メリット)
 - 簡単な連携ならノンコーディングで利用できる
 - 小規模なPJや趣味なら無料枠で対応可能
 - カスタマイズ機能が多いのである程度複雑な要件にも耐えられる
@@ -186,7 +186,7 @@ https://github.com/nyanc0/Android/tree/other_knowledge/integromat
 
 ---
 
-### @css[h2](デメリット)
+## @css[h2](デメリット)
 - 日本語の説明ないので英語との戦い
 - 慣れるまでに時間がかかる
 - 日本語処理がおかしいことがある(かも？)
