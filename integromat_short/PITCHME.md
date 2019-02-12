@@ -61,7 +61,7 @@ Backlogの通知をSlackに流したいな・・・
 
 ---
 
-## @css[h2](アニメイベント情報を即キャッチする)
+## @css[h2](アニメイベント情報を<br>即キャッチする)
 (重要)
 
 ---
@@ -162,7 +162,7 @@ Scenario = 連携の設計図
 
 ---
 
-## @css[h2](Jsonの作成・パースはIntegromatにお任せ)
+## @css[h2](Jsonの作成・パースは<br>Integromatにお任せ)
 
 <img src="https://raw.githubusercontent.com/nyanc0/Android/other_knowledge/integromat/images/gmail_8.png" height="300">
 <img src="https://raw.githubusercontent.com/nyanc0/Android/other_knowledge/integromat/images/gmail_9.png" height="300">
@@ -174,6 +174,7 @@ Scenario = 連携の設計図
 ---
 
 ## @css[h2](もう少し詳しい使い方)
+
 https://github.com/nyanc0/Android/tree/other_knowledge/integromat
 
 ---
