@@ -11,14 +11,14 @@
 
 ---
 
-## @css[h2](Integromat)
+## @css[h1](Integromat)
 
 ---
 ## @css[h2](Integromatとは？)
 
 - 2016年サービスイン
-- 様々なWebサービスの連携機能を提供
-- (ほぼ)ノンコーディングでサービス連携が可能
+- 複数サービス間連携の機能を提供
+- (ほぼ)ノンコーディングで利用可能
 
 ---
 
@@ -38,7 +38,7 @@ Backlogの通知をSlackに流したいな・・・
 
 ---
 
-### @color[orange](環境構築不要<br>＆<br>開発工数がかからない)
+### @css[h2](環境構築不要<br>＆<br>開発工数がかからない)
 
 ---
 
@@ -58,12 +58,12 @@ Backlogの通知をSlackに流したいな・・・
 ---
 
 ## @css[h2](BacklogはWebhook連携だけ)  
-(つまらない)
+つまらない
 
 ---
 
 ## @css[h2](アニメイベント情報を<br>即キャッチする)
-(重要)
+重要
 
 ---
 
@@ -129,6 +129,19 @@ Scenario = 連携の設計図
 <img src="https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/slack_2.png?raw=true" height="300">
 
 ---
+
+## @css[h2](メッセージ設定完了)
+![gmail_7](https://github.com/nyanc0/Android/blob/other_knowledge/integromat/images/gmail_7.png?raw=true)
+
+---
+
+## @css[h2](キモはAPI連携)
+
+- メールによって日本語が文字化けする...
+- Slackに送信可能な文字数に制限
+- リンクはメール本文から抜き出す必要あり
+
+----
 
 ## @css[h2](キモはAPI連携)
 
