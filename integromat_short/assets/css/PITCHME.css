@@ -13,6 +13,7 @@
   color: #f1a247;
   font-size: 0.8em !important;
   font-weight: bold;
+  text-transform: none;
 }
 
 .byline {
