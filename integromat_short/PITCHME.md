@@ -143,7 +143,7 @@ Scenario = 連携の設計図
 
 ---
 
-## @css[h2](キモはAPI連携)
+## @css[h2](やりたいこと)
 
 1. Gmailの内容をJsonでPOST
 2. エンコード
@@ -189,7 +189,7 @@ Scenario = 連携の設計図
 
 ## @css[h2](もう少し詳しい使い方)
 
-https://github.com/nyanc0/Android/tree/other_knowledge/integromat
+@css[h3](https://github.com/nyanc0/Android/tree/other_knowledge/integromat)
 
 ---
 
