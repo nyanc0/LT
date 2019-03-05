@@ -1,4 +1,4 @@
-# @css[h2](今さらML Kitを触ったので<br>ついでにKotlin Croutineも入れてみた)
+# @css[h2](今更ML Kitを触ったので<br>ついでにKotlin Croutineも入れてみた)
 
 ---
 
@@ -32,7 +32,7 @@
 
 ## @css[h2](使い方)
 
-<img border="0" src="https://github.com/nyanc0/LT/blob/master/mlkit/images/mlkit_1.gif?raw=true" height="300">
+<img border="0" src="https://github.com/nyanc0/LT/blob/master/mlkit/images/mlkit_1.gif?raw=true" height="450">
 
 ---
 
