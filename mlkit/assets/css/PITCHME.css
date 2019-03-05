@@ -1,0 +1,36 @@
+.shoutout {
+  color: #f1a247;
+  font-size: 1.5em !important;
+}
+
+.h1 {
+  color: #f1a247;
+  font-size: 1.0em !important;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.h2 {
+  color: #f1a247;
+  font-size: 0.8em !important;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.h3 {
+  color: #ffffff;
+  font-size: 0.6em !important;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.byline {
+  letter-spacing: 0.1em;
+  font-size: 0.6em !important;
+  color: white
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
