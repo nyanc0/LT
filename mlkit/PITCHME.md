@@ -1,4 +1,4 @@
-# 今さらML Kitを触ったのでついでにKotlin Croutineも入れてみた
+# 今さらML Kitを触ったので<br>ついでにKotlin Croutineも入れてみた
 
 ---
 
@@ -27,18 +27,12 @@
 
 ## @css[h2](提供する機能)
 
-||on-device|cloud|
-|---|---|---|
-|Image labeling 画像のラベリング|○|○|
-|Text Recognition テキスト認証|○|-|
-|Face Detection 顔認証|○|-|
-|Barcode scanning バーコードスキャン|○|-|
-|Landmark Detection ランドマーク認証|-|○|
-
+![](https://github.com/nyanc0/LT/blob/master/mlkit/images/mlkit_glid.png?raw=true)
 ---
 
 ## @css[h2](使い方)
 
+![how_to_use](https://github.com/nyanc0/LT/blob/master/mlkit/images/mlkit_1.gif?raw=true)
 
 ---
 
