@@ -1,4 +1,4 @@
-# 今さらML Kitを触ったので<br>ついでにKotlin Croutineも入れてみた
+# @css[h2](今さらML Kitを触ったので<br>ついでにKotlin Croutineも入れてみた)
 
 ---
 
@@ -8,7 +8,7 @@
 
 ## @css[h2](MLKitって何？)
 
-- Firebaseが提供する機械学習を組み込むためのSDK
+- Firebaseが提供する<br>機械学習を組み込むためのSDK
 - iOS/Androidどちらでも使える
 
 ---
@@ -32,7 +32,7 @@
 
 ## @css[h2](使い方)
 
-![how_to_use](https://github.com/nyanc0/LT/blob/master/mlkit/images/mlkit_1.gif?raw=true)
+<img border="0" src="https://github.com/nyanc0/LT/blob/master/mlkit/images/mlkit_1.gif?raw=true" height="300">
 
 ---
 
