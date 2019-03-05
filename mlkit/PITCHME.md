@@ -6,26 +6,26 @@
 
 ---
 
-## MLKitって何？
+## @css[h2](MLKitって何？)
 
 - Firebaseが提供する機械学習を組み込むためのSDK
 - iOS/Androidどちらでも使える
 
 ---
 
-## on-deviceとcloud
+## @css[h2](on-deviceとcloud)
 
 - on-device
     - オフラインでも実行できる
     - 軽い
- - cloud
+- cloud
     - 高機能
     - オンライン必須
     - 従量課金(1000アクセス/月まで無料)
 
 ---
 
-## 提供する機能
+## @css[h2](提供する機能)
 
 ||on-device|cloud|
 |---|---|---|
@@ -37,12 +37,12 @@
 
 ---
 
-## 使い方
+## @css[h2](使い方)
 
 
 ---
 
-## 使ってみた感触
+## @css[h2](使ってみた感触)
 
 - 認証自体のコードは簡単に書けて手軽
 - i/Aで同じ機構が利用できるのは便利
@@ -50,7 +50,7 @@
 
 ---
 
-## Kotlin Croutineって何？
+## @css[h2](Kotlin Croutineって何？)
 
 - Kotlin 1.3からexperimentalが外れた、coroutine機能
 - 「中断可能な計算インスタンス」を提供し、非同期処理を行いやすい
@@ -62,7 +62,7 @@
 
 ---
 
-## 今回の使い所
+## @css[h2](今回の使い所)
 
 今回は下記の場所でCoroutineを利用しています。
 
@@ -71,14 +71,14 @@
 
 ---
 
-## 今回のポイント
+## @css[h2](今回のポイント)
 
 FirebaseVisionのDetection処理はコールバック形式になっているため、  
 suspendCoroutineを使いCoroutine関数に変換をすることで中断できる関数に変換をしています。
 
 ---
 
-### Repositoryの実装
+### @css[h2](Repositoryの実装)
 
 ```kt
 @WorkerThread
@@ -111,7 +111,7 @@ suspendCoroutineを使いCoroutine関数に変換をすることで中断でき�
 
 ---
 
-### 呼び出し側の実装
+### @css[h2](呼び出し側の実装)
 
 ```kt
 fun detect(detector: Detector) {
@@ -138,7 +138,7 @@ fun detect(detector: Detector) {
 
 ---
 
-## 使ってみた感触
+## @css[h2](使ってみた感触)
 
 - 非同期処理が描きやすい
 - Rxに比べて学習コストが低い(個人的感想)
