@@ -1,5 +1,6 @@
 # テーマ
 theme : black
+theme-override : iOS_basic/assets/css/PITCHME.css
 # スライド番号
 slide-number : true
 # コードハイライト
