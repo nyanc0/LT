@@ -1,4 +1,4 @@
-## @css[h2](Androidエンジニアが<br>SwiftでiOSアプリを作った)
+## @css[h2](Androidエンジニアが<br>SwiftでiOSアプリを作った感想)
 ---
 アプリ開発始めて4年経って、  
 iOSを(やっと)本格的に触ったので、  
@@ -7,6 +7,7 @@ n番煎じですがiOSを始めるポイントとか
 
 ---
 ## @css[h2](今回作成したアプリ)
+<img src="https://github.com/nyanc0/LT/blob/master/iOS_basic/images/sample.gif?raw=true" height="300">
 
 ---
 ## @css[h2](お品書き)
@@ -21,15 +22,12 @@ n番煎じですがiOSを始めるポイントとか
 ---
 ## @css[h2](1. どんな知識が必要なの？)
 - **Must:** ググり方
-- **Want:** iOSアプリってXcodeで作るんだよね、Swiftで作るんだよねぐらいは知っている
+- **Want:** Xcodeで作るんだよね、Swiftで作るんだよねぐらいは知っている
 - **Want:** これまで何らかの言語で開発した経験がある
-- **Want:** 何となくiOSアプリ開発時に利用する部品の名前を知っている(StoryboardとかViewControllerとか)
 - **Want:** MVP,MVC,MVVMなどのアーキテクチャに関して知識がある
 
 ---
-## @css[h2](1. どんな知識が必要なの？)
-
-@css[h2](ググり方)
+## @css[h2](ググり方)
 
 ---
 ## @css[h2](1. どんな知識が必要なの？)
@@ -41,9 +39,9 @@ n番煎じですがiOSを始めるポイントとか
 ---
 ## @css[h2](ちなみに私の技術レベル)
 - Java歴： 4年
-- Kotlin歴： 1年半(業務経験はなし。個人開発レベル)
+- Kotlin歴： 1年半
 - Androidアプリ作成歴： 4年
-- iOSの知識： 開発時に何が必要か、Androidと比較してどういう違いや特徴があるか、Apple様のガイドラインは知ってるレベル
+- iOSの知識： 上流工程とか、超基本的な構成要素は知っているレベル
 
 とはいえ、  
 開発経験があるに越したことはないです。
@@ -63,18 +61,16 @@ n番煎じですがiOSを始めるポイントとか
 
 ---
 ## @css[h2](2-1. アーキテクチャ選定)
-![](https://github.com/nyanc0/LT/blob/master/iOS_basic/images/app_architecture.png?raw=true)
+<img src="https://github.com/nyanc0/LT/blob/master/iOS_basic/images/app_architecture.png?raw=true" height="300">
 
 ---
 ## @css[h2](2-1. アーキテクチャ選定)
 
-今回はAndroidの場合とどこが変わるのか？を知りたかったので、  
-Androidのデモアプリと同様にMVVM + CleanArchitectureを選びました。
-
----
-## @css[h2](2-2. ライブラリの選定)
-今回はプロジェクトで利用しているものを使いたい＆  
-iOS標準をなるべく使いたいという観点でライブラリを選びました。
+今回はAndroidの場合とどこが変わるのか？  
+を知りたかったので、  
+Androidのデモアプリと同様に  
+MVVM + CleanArchitecture  
+を選びました。
 
 ---
 ## @css[h2](2-2. ライブラリの選定)
@@ -91,6 +87,12 @@ iOS標準をなるべく使いたいという観点でライブラリを選び�
 |RxBlocking|ObservableをBlockingObservableに変換して結果が返ってくるまでロックし、テストできるようにする|
 |RxTest|指定した時刻にObservableにイベントを発行することができるスケジューラ|
 |Mockingjay|APIのMock|
+
+---
+## @css[h2](2-2. ライブラリの選定)
+プロジェクトで利用しているものを使いたい＆  
+iOS標準をなるべく使いたい  
+という観点で選びました。
 
 ---
 ## @css[h2](2-3. モデルの設計)
@@ -196,8 +198,7 @@ class RecipeListUseCase {
 ---
 ## @css[h2](2-5. UI周りの作成)
 
-一番時間がかかり、  
-一番iOSらしさが出るのがここ
+一番時間がかかり、一番iOSらしさが出るのがここ
 
 ---
 ## @css[h2](2-5. UI周りの作成)
