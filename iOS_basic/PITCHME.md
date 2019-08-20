@@ -7,7 +7,7 @@ n番煎じですがiOSを始めるポイントとか
 
 ---
 ## @css[h2](今回作成したアプリ)
-<img src="https://github.com/nyanc0/LT/blob/master/iOS_basic/images/sample.gif?raw=true" height="300">
+<img src="https://github.com/nyanc0/LT/blob/master/iOS_basic/images/sample.gif?raw=true" height="320">
 
 ---
 ## @css[h2](お品書き)
@@ -41,10 +41,8 @@ n番煎じですがiOSを始めるポイントとか
 - Java歴： 4年
 - Kotlin歴： 1年半
 - Androidアプリ作成歴： 4年
-- iOSの知識： 上流工程とか、超基本的な構成要素は知っているレベル
-
-とはいえ、  
-開発経験があるに越したことはないです。
+- iOSの知識：超基本的な構成要素は知っているレベル
+- Swift：なんとなく読めはする
 
 ---
 ## @css[h2](2. どう作っていったの？)
@@ -61,7 +59,7 @@ n番煎じですがiOSを始めるポイントとか
 
 ---
 ## @css[h2](2-1. アーキテクチャ選定)
-<img src="https://github.com/nyanc0/LT/blob/master/iOS_basic/images/app_architecture.png?raw=true" height="300">
+<img src="https://github.com/nyanc0/LT/blob/master/iOS_basic/images/app_architecture.png?raw=true" height="320">
 
 ---
 ## @css[h2](2-1. アーキテクチャ選定)
@@ -75,18 +73,7 @@ MVVM + CleanArchitecture
 ---
 ## @css[h2](2-2. ライブラリの選定)
 
-|ライブラリ名|用途|
-|---|---|
-|SwiftLint|Lintチェック|
-|RxSwift|各層のつなぎ,Event通知,ViewへのBinding|
-|RxCocoa|各層のつなぎ,Event通知,ViewへのBinding|
-|RealmSwift|データ保存|
-|SDWebImage|画像ロード|
-|RxDataSources|Collection,TableViewで利用|
-|MaterialComponents|FloatingButton, CardViewの利用|
-|RxBlocking|ObservableをBlockingObservableに変換して結果が返ってくるまでロックし、テストできるようにする|
-|RxTest|指定した時刻にObservableにイベントを発行することができるスケジューラ|
-|Mockingjay|APIのMock|
+<img src="https://github.com/nyanc0/LT/blob/master/iOS_basic/images/table.png?raw=true" height="320">
 
 ---
 ## @css[h2](2-2. ライブラリの選定)
