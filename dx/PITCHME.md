@@ -98,15 +98,15 @@ class MainActivity : AppCompatActivity(), Task.TaskCallback<Response>() {
 
 ---?color=#183454
 
-@css[section img]<img src="https://github.com/nyanc0/LT/blob/master/dx/assets/images/smp_l.png?raw=true">
+@css[section img]<img src="https://github.com/nyanc0/LT/blob/master/dx/assets/image/smp_l.png?raw=true">
 
 ---?color=#183454
 
-<img src="https://github.com/nyanc0/LT/blob/master/dx/assets/images/smp_s.png?raw=true">
+<img src="https://github.com/nyanc0/LT/blob/master/dx/assets/image/smp_s.png?raw=true">
 
 ---?color=#183454
 
-<img src="https://github.com/nyanc0/LT/blob/master/dx/assets/images/smp_s_death.png?raw=true">
+<img src="https://github.com/nyanc0/LT/blob/master/dx/assets/image/smp_s_death.png?raw=true">
 
 ---?color=#183454
 
